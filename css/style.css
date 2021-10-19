@@ -2,25 +2,50 @@
     box-sizing: border-box;
 }
 
+li a {
+    text-decoration: none;
+    color: white;
+}
+
 .navLi {
     position: fixed;
     display: flex;
     list-style: none;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: gray;
     width: 100%;
     top: 0;
 }
 
-a {
-    text-decoration: none;
-    color: white;
+.item {
+    margin: auto 10px;
 }
 
-li {
-    padding: 0 10px;
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: black dashed 2px;
 }
 
-h1 {
+.test {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.frmItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
     text-align: center;
+}
+
+.services-img {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    gap: 10px;
 }
