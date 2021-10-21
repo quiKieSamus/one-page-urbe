@@ -43,18 +43,18 @@ nav {
     height: 50px;
     background-color: black;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 
 }
 
 .navItem {
     text-decoration: none;
     color: white;
-
 }
 
 .navDiv:hover {
     background-color: darkgreen;
+    cursor: pointer;
 }
 
 
@@ -92,4 +92,11 @@ nav {
 .serviceTitle {
     text-align: center;
     font-weight: bold;
+}
+
+.location-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 5px;
 }
