@@ -1,0 +1,11 @@
+Materia: Multimedia y Diseño Web
+Nombre y Apellido: Rubén González
+Cédula: 28288237
+
+Actividad: Diseñe una Página One Page
+
+Host: https://quikiesamus.github.io/one-page-urbe/
+
+Github: https://github.com/quiKieSamus/one-page-urbe
+
+Comentarios: N/A.

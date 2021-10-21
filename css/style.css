@@ -30,18 +30,30 @@ li a {
     color: white;
 }
 
-nav {
-    top: 0;
+.hero-title {
+    max-width: 30ch;
 }
-.navLi {
+
+nav {
     position: fixed;
-    display: flex;
-    list-style: none;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: gray;
-    width: 100%;
     top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 50px;
+    background-color: #00a087;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+
+}
+
+.navDiv:hover {
+    background-color: black;
+    color: white;
+}
+
+.navItem {
+    text-align: center;   
 }
 
 .form {
@@ -66,8 +78,11 @@ nav {
 }
 
 .services-img {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    gap: 10px;
+}
+
+.serviceimgs {
+    border-radius: 200px;
 }
