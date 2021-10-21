@@ -41,18 +41,24 @@ nav {
     z-index: 9999;
     width: 100%;
     height: 50px;
-    background-color: #00a087;
+    background-color: black;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
 
 }
 
-.navDiv:hover {
-    background-color: black;
+.navItem {
+    text-decoration: none;
     color: white;
+
 }
 
-.navItem, .title {
+.navDiv:hover {
+    background-color: darkgreen;
+}
+
+
+.title {
     text-align: center;   
 }
 
