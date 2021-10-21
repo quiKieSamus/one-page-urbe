@@ -52,20 +52,16 @@ nav {
     color: white;
 }
 
-.navItem {
+.navItem, .title {
     text-align: center;   
 }
+
 
 .form {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.test {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    padding-bottom: 5px;
 }
 
 .frmItem {
@@ -85,4 +81,9 @@ nav {
 
 .serviceimgs {
     border-radius: 200px;
+}
+
+.serviceTitle {
+    text-align: center;
+    font-weight: bold;
 }
