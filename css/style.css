@@ -109,7 +109,7 @@ nav {
 }
 
 .projects-list {
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
