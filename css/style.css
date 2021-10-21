@@ -43,7 +43,7 @@ nav {
     height: 50px;
     background-color: black;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
 }
 
@@ -52,13 +52,20 @@ nav {
     color: white;
 }
 
+.navDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .navDiv:hover {
     background-color: darkgreen;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 
-.title {
+.title{
     text-align: center;   
 }
 
@@ -99,4 +106,10 @@ nav {
     grid-template-columns: auto auto;
     justify-content: center;
     gap: 5px;
+}
+
+.projects-list {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
 }
