@@ -92,6 +92,11 @@ nav {
     justify-content: space-around;
 }
 
+.service-description {
+    max-width: 35ch;
+    text-align: justify;
+}
+
 .serviceimgs {
     border-radius: 200px;
 }
