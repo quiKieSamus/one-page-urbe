@@ -101,6 +101,10 @@ nav {
     border-radius: 200px;
 }
 
+.project-images {
+    border-radius: 200px;
+}
+
 .serviceTitle {
     text-align: center;
     font-weight: bold;
@@ -117,4 +121,19 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.btn-send {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-send:hover {
+    cursor: pointer;
+    background-color: darkgreen;
 }
